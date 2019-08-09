@@ -96,6 +96,6 @@ class Panel extends Widget
      */
     private function _initFooter(){
         if($this->footer)
-            Html::tag('div', $this->footerTitle, ['class' => 'panel-footer']);
+            echo Html::tag('div', $this->footerTitle, ['class' => 'panel-footer']);
     }
 }
